@@ -4,7 +4,7 @@ import java.util.Arrays;
  * Array-based Stack (LIFO - Last In, First Out).
  * Push, Pop and Peek are all O(1) (push is amortised O(1) because the array grows when full).
  */
-public class MyStack {
+public class MyStack {   // Fazlan - Stack implementation for DS-Graph-Analyzer
     private int[] items;
     private int top;
 
